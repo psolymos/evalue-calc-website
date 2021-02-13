@@ -2,7 +2,7 @@
 layout: archive
 ---
 
-# This is the Resources page
+# This Landing page
 
 Paragraph:
 

@@ -1,27 +1,9 @@
 ---
+layout: default
 ---
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
-    {% include_cached skip-links.html %}
-    {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
-
-    <div class="initial-content">
-      <iframe
-        frameBorder="0"
-        style="height:80vh; width: 100%; margin: 0; padding: 0;"
-        src="{{ page.app_url }} "
-      />
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
-</html>
+<iframe
+  frameBorder="0"
+  style="height:90vh; width: 100%; margin: 0; padding: 0;"
+  src="{{ page.app_url }} "
+/>
