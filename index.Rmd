@@ -1,0 +1,27 @@
+---
+title: Welcome!
+layout: archive
+output:
+  md_document:
+    variant: gfm
+    preserve_yaml: true
+---
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+Paragraph:
+
+- point 1
+- point 2
+
+`done`
+
+### H3
+
+Hi

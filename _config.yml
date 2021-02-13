@@ -181,6 +181,8 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - "*.Rmd" # R markdown source files
+  - "*.Rproj" # RStudio project file 
 keep_files:
   - .git
   - .svn

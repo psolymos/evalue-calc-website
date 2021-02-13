@@ -1,16 +1,24 @@
 ---
-layout: archive
 title: Resources
+layout: archive
 output:
   md_document:
     variant: gfm
     preserve_yaml: true
 ---
 
+```{r, echo=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
 Paragraph:
 
-  - point 1
-  - point 2
+- point 1
+- point 2
 
 `done`
 
@@ -18,8 +26,6 @@ Paragraph:
 
 Try a plot
 
-``` r
+```{r}
 hist(rnorm(100))
 ```
-
-![](README-unnamed-chunk-2-1.png)<!-- -->
