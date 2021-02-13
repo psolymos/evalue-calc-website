@@ -1,8 +1,7 @@
 ---
 layout: archive
+title: Resources
 ---
-
-# This is the Resources page
 
 Paragraph:
 

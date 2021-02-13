@@ -1,8 +1,7 @@
 ---
 layout: archive
+title: Welcome!
 ---
-
-# This Landing page
 
 Paragraph:
 
