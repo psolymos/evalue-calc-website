@@ -5,6 +5,8 @@ under and MIT license.
 
 ## Site configuration
 
+See full [config](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+
 - edit `_config.yml` to update site metadata, Google Analytics etc
 - edit `_data/navigation` to add more tabs to the top navigation
 
