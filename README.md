@@ -55,3 +55,5 @@ Keeping the layout and output is important, so that it will show up as expected.
 
 Note: if images are included as part of the Rmd, those will be placed
 relative to the `index.Rmd` file and need to be added to git.
+
+See [this](https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf) cheat sheet for markdown formatting.
