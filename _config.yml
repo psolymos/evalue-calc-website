@@ -19,7 +19,7 @@ url                      : http://peter.solymos.org/evalue-calc-website/ # the b
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : mayamathur/evalue_website # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 
-# See also Google Analytics below
+# See also Google Analytics and possibly social links below
 
 ## --- End of most important settings ---
 
@@ -182,7 +182,7 @@ exclude:
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - "*.Rmd" # R markdown source files
-  - "*.Rproj" # RStudio project file 
+  - "*.Rproj" # RStudio project file
 keep_files:
   - .git
   - .svn
